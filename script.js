@@ -15,7 +15,7 @@ const pauseSom = new Audio('/sons/pause.mp3')
 const fimSom = new Audio('/sons/beep.mp3')
 const tempoNaTela = document.querySelector("#timer")
 
-let tempoDecorridoEmSegundos = 10
+let tempoDecorridoEmSegundos = 1500
 let intervaloId = null
 
 musica.loop = true
